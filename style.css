@@ -82,7 +82,7 @@ li {
 #discord,
 #contact,
 footer {
-  padding: 48px 0;
+  padding: 24px 0;
 }
 
 /* About */
@@ -105,6 +105,10 @@ h2 {
 
 .about__img--wrapper {
   width: 40%;
+}
+
+.footer__logo {
+  width: 10%;
 }
 
 img {
@@ -158,6 +162,7 @@ footer {
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding: 12px;
 }
 
 .footer_links {
@@ -213,5 +218,18 @@ footer {
   #discord,
   .section__description {
     flex-direction: column-reverse;
+  }
+
+  footer {
+    padding: 48px 24px;
+  }
+
+  .footer_link {
+    padding: 0 4px;
+    font-size: 18px;
+  }
+
+  .footer_links {
+    margin-bottom: 24px;
   }
 }
